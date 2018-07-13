@@ -25,8 +25,8 @@
     "webpack-devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "predeploy": "npm run build",
-    "deploy": " gh-pages -d build",
+    "predeploy": "npm run webpack-devserver",
+    "deploy": " gh-pages -d webpack-devserver",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

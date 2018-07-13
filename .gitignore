@@ -9,7 +9,7 @@
 # production
 /build
 
-# IntelliJ project files 
+# IntelliJ project files
 .idea/
 
 # misc
