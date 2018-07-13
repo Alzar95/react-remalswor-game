@@ -1,0 +1,17 @@
+.data-on-the-hero {
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+}
+
+.character-names {
+  font-size: 28px;
+  font-weight: bold;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.progressbar-for-hero {
+  position: absolute;
+  width: 40%;
+}

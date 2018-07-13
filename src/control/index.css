@@ -1,0 +1,35 @@
+.fireball-for-hero {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: fireball-for-hero-animation;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+@keyframes fireball-for-hero-animation {
+    0% {left:100%; top:35%; }
+    100%   {left:0; top:35%; }
+}
+
+.fireball-for-enemy {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: fireball-for-enemy-animation;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+@keyframes fireball-for-enemy-animation {
+    0% {left:-5%; top:35%; }
+    100%   {left:85%; top:35%; }
+}
+
+.field-for-therapeutic-rain {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 40%;
+    left: 17%;
+}

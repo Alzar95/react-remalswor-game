@@ -1,0 +1,11 @@
+.main-central-field {
+    position: absolute;
+    width: 55%;
+    height: 40%;
+    top: 35%;
+    left: 24%;
+}
+
+.highscore-table-screen {
+    display: none;
+}
