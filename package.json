@@ -29,6 +29,10 @@
     "deploy": " gh-pages -d webpack-devserver",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alzar95/react-remalswor-game.git"
+  },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel": "^6.23.0",
